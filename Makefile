@@ -5,7 +5,7 @@ CFLAGS = -Wall -Wextra -Werror
 AR = ar
 ARFLAGS = rcs
 
-SRC = 
+SRC = ft_putnbr.c 
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)
