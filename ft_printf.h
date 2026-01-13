@@ -10,15 +10,22 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PRINTF_H
-# define PRINTF_H
+#ifndef FT_PRINTF_H
+# define FT_PRINTF_H
 
+# include <stdio.h>
+# include <stdint.c>
+# include <string.h> 
 # include <unistd.h>
 # include <stdrag.h>
 # include <stdlib.h>
 
 int	ft_printf(const char *str, ...);
-int	ft_putnbr_base(unsigned int nbr, char *base, int total);
-int	ft_putnbr(int n, int total);
+int	ft_printchar(char c);
+int	ft_printdec(int n);
+int	ft_printhex(unsigned int n, int up);
+int	ft_printptr(void *ptr);
+int	ft_printstr(char *str);
+int	ft_printui(unsigned int n);
 
 #endif

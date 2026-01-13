@@ -1,30 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_printui.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/22 13:52:24 by marvin            #+#    #+#             */
-/*   Updated: 2025/12/22 13:52:24 by marvin           ###   ########.fr       */
+/*   Created: 2026/01/13 16:51:14 by marvin            #+#    #+#             */
+/*   Updated: 2026/01/13 16:51:14 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "ft_printf.h"
 
-void	ft_putnbr(int n)
+int	ft_printui(unsigned int n)
 {
-	if (n < 0)
-	{
-		if (n == INT_MIN)
-		{
-			write (fd, "-2147483648", 11);
-			return ;
-		}
-		write (1, "-", 1);
-		n *= -1;
-	}
-	if (n > 9)
-		ft_putnbr(n / 10);
-	write (1, &"0123456789"[n % 10], 1);
+	unsigned int	nb;
+	int				count;
+
+	nb = n;
+	count = 0;
+	if (nb > 9)
+		count += ft_printui(nb / 10);
+	count += ft_printchar((nb % 10) + '0');
+	return (count);
 }
