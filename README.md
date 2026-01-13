@@ -39,7 +39,7 @@ Then include the header and link the library in your project.
 
 int main(void)
 {
-	ft_printf("Hello %s, you are %d years old\n", "Alice", 25);
+	ft_printf("Hello %s, you are %d years old\n", "Alice", 21);
 	ft_printf("Pointer: %p\n", (void *)0x12345678);
 	ft_printf("Hex: %x, Uppercase: %X\n", 255, 255);
 	return (0);
