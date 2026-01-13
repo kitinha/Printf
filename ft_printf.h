@@ -14,10 +14,10 @@
 # define FT_PRINTF_H
 
 # include <stdio.h>
-# include <stdint.c>
+# include <stdint.h>
 # include <string.h> 
 # include <unistd.h>
-# include <stdrag.h>
+# include <stdarg.h>
 # include <stdlib.h>
 
 int	ft_printf(const char *str, ...);
