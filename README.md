@@ -22,6 +22,30 @@ The project is structured modularly with separate functions for handling differe
 - **ft_printui.c** - Handles unsigned integer printing (`%u`)
 - **ft_printhex.c** - Handles hexadecimal printing (`%x`, `%X`)
 - **ft_printptr.c** - Handles pointer printing (`%p`)
+- ## Instructions
+
+Compile the project with:
+
+```bash
+make
+```
+
+Then include the header and link the library in your project.
+
+### Example
+
+```c
+#include "ft_printf.h"
+
+int main(void)
+{
+	ft_printf("Hello %s, you are %d years old\n", "Alice", 25);
+	ft_printf("Pointer: %p\n", (void *)0x12345678);
+	ft_printf("Hex: %x, Uppercase: %X\n", 255, 255);
+	return (0);
+}
+```
+
 
 ## Resources
 
