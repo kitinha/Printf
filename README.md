@@ -31,4 +31,3 @@ The project is structured modularly with separate functions for handling differe
 - **[Linux man pages - printf(3)](https://man7.org/linux/man-pages/man3/printf.3.html)** - Complete specification of printf behavior and format specifiers
 - **[C99 Standard - stdarg.h](https://en.cppreference.com/w/c/variadic)** - Official documentation on variadic functions and the stdarg library
 - **[GNU C Library Manual](https://www.gnu.org/software/libc/manual/)** - Comprehensive guide to C library implementation details
-- **[Format String Wikipedia](https://en.wikipedia.org/wiki/Format_string)** - Overview of format string syntax and mechanics
