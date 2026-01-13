@@ -6,9 +6,6 @@ of the 42 curriculum by ineguill*
 ## Description
 
 `ft_printf` is a C implementation of the standard library's `printf` function. This project focuses on replicating the core functionality of printf, including format specifier parsing, variable argument handling, and output formatting. The implementation demonstrates a deep understanding of variadic functions, format string parsing, and low-level character output manipulation.
-
-## Goal
-
 The primary goal of this project is to:
 - Create a fully functional printf implementation that behaves identically to the standard library function
 - Understand how variadic functions work in C using `stdarg.h`
@@ -16,7 +13,6 @@ The primary goal of this project is to:
 - Implement proper handling of various data types (integers, strings, pointers, hexadecimal values, etc.)
 
 ## Overview
-
 The project is structured modularly with separate functions for handling different format specifiers:
 
 - **ft_printf.c** - Main function that parses the format string and dispatches to appropriate handlers
