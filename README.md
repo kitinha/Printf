@@ -55,3 +55,9 @@ int main(void)
 - **[Linux man pages - printf(3)](https://man7.org/linux/man-pages/man3/printf.3.html)** - Complete specification of printf behavior and format specifiers
 - **[C99 Standard - stdarg.h](https://en.cppreference.com/w/c/variadic)** - Official documentation on variadic functions and the stdarg library
 - **[GNU C Library Manual](https://www.gnu.org/software/libc/manual/)** - Comprehensive guide to C library implementation details
+
+### AI Usage
+
+AI was used for:
+- Reformatting and cleaning up Readme file.
+The core algorithm and implementation logic were developed manually through understanding of C fundamentals and the printf specification.
